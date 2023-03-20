@@ -34,6 +34,6 @@ public class TValidatorUtilTest {
 			}
 		}
 		
-		assertEquals(4, updatedExpireFlagCount);
+		assertEquals(5, updatedExpireFlagCount);
 	}
 }
