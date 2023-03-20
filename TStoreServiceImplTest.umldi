@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_ytFkoLmrEe2AefcY_nMcSg" activeDiagram="_ytFkobmrEe2AefcY_nMcSg">
+  <model href="TStoreServiceImplTest.uml#_ysuYQLmrEe2AefcY_nMcSg"/>
+  <diagrams xmi:id="_ytFkobmrEe2AefcY_nMcSg" position="0,0" size="100,100" name="TStoreServiceImplTest" viewport="0,0">
+    <property xmi:id="_ytfNQLmrEe2AefcY_nMcSg" key="pageFormatName" value="A3"/>
+    <property xmi:id="_ytfNQbmrEe2AefcY_nMcSg" key="diagramWidth" value="1180"/>
+    <property xmi:id="_ytfNQrmrEe2AefcY_nMcSg" key="diagramHeight" value="1680"/>
+    <property xmi:id="_ytfNQ7mrEe2AefcY_nMcSg" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_ytfNRLmrEe2AefcY_nMcSg" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_ytfNRbmrEe2AefcY_nMcSg" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_ytfNRrmrEe2AefcY_nMcSg" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_ytfNR7mrEe2AefcY_nMcSg" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_ytfNSLmrEe2AefcY_nMcSg" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ytFkormrEe2AefcY_nMcSg" presentation="org.topcased.modeler.uml.sequencediagram">
+      <element href="TStoreServiceImplTest.uml#_ysuYRbmrEe2AefcY_nMcSg"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_yulZcLmrEe2AefcY_nMcSg" position="13,40" size="200,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yulZcbmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYVbmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_yun1sLmrEe2AefcY_nMcSg" position="63,40" size="20,95">
+        <anchorage xmi:id="_yupD0rmrEe2AefcY_nMcSg" position="13,5" graphEdge="_yupq4bmrEe2AefcY_nMcSg"/>
+        <anchorage xmi:id="_yupq5LmrEe2AefcY_nMcSg" position="13,25" graphEdge="_yuqR8bmrEe2AefcY_nMcSg"/>
+        <anchorage xmi:id="_yuqR9LmrEe2AefcY_nMcSg" position="13,45" graphEdge="_yuq5AbmrEe2AefcY_nMcSg"/>
+        <anchorage xmi:id="_yuq5BLmrEe2AefcY_nMcSg" position="13,65" graphEdge="_yurgEbmrEe2AefcY_nMcSg"/>
+        <anchorage xmi:id="_yurgFLmrEe2AefcY_nMcSg" position="13,85" graphEdge="_yusHIbmrEe2AefcY_nMcSg"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yun1sbmrEe2AefcY_nMcSg" presentation="default">
+          <element href="TStoreServiceImplTest.uml#_ysuYWrmrEe2AefcY_nMcSg"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_yupD0LmrEe2AefcY_nMcSg" position="63,150" size="20,15">
+        <anchorage xmi:id="_yusHILmrEe2AefcY_nMcSg" position="13,5" graphEdge="_yusHIbmrEe2AefcY_nMcSg"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yupD0bmrEe2AefcY_nMcSg" presentation="default">
+          <element href="TStoreServiceImplTest.uml#_ysuYa7mrEe2AefcY_nMcSg"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_yumAgLmrEe2AefcY_nMcSg" position="243,40" size="200,300">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yumAgbmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYVrmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_yuocwLmrEe2AefcY_nMcSg" position="13,40" size="20,15">
+        <anchorage xmi:id="_yupq4LmrEe2AefcY_nMcSg" position="13,5" graphEdge="_yupq4bmrEe2AefcY_nMcSg"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yuocwbmrEe2AefcY_nMcSg" presentation="default">
+          <element href="TStoreServiceImplTest.uml#_ysuYXrmrEe2AefcY_nMcSg"/>
+        </semanticModel>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_yumnkLmrEe2AefcY_nMcSg" position="473,40" size="200,300">
+      <anchorage xmi:id="_yuqR8LmrEe2AefcY_nMcSg" position="473,94" graphEdge="_yuqR8bmrEe2AefcY_nMcSg"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yumnkbmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYV7mrEe2AefcY_nMcSg"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_yunOoLmrEe2AefcY_nMcSg" position="703,40" size="200,300">
+      <anchorage xmi:id="_yuq5ALmrEe2AefcY_nMcSg" position="703,114" graphEdge="_yuq5AbmrEe2AefcY_nMcSg"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yunOobmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYWLmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_yunOormrEe2AefcY_nMcSg" position="933,40" size="200,300">
+      <anchorage xmi:id="_yurgELmrEe2AefcY_nMcSg" position="933,134" graphEdge="_yurgEbmrEe2AefcY_nMcSg"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yunOo7mrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYWbmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_yupq4bmrEe2AefcY_nMcSg" anchor="_yupD0rmrEe2AefcY_nMcSg _yupq4LmrEe2AefcY_nMcSg">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yupq4rmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYbLmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_yupq47mrEe2AefcY_nMcSg" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_yuqR8bmrEe2AefcY_nMcSg" anchor="_yupq5LmrEe2AefcY_nMcSg _yuqR8LmrEe2AefcY_nMcSg">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yuqR8rmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYbbmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_yuqR87mrEe2AefcY_nMcSg" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_yuq5AbmrEe2AefcY_nMcSg" anchor="_yuqR9LmrEe2AefcY_nMcSg _yuq5ALmrEe2AefcY_nMcSg">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yuq5ArmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYbrmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_yuq5A7mrEe2AefcY_nMcSg" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_yurgEbmrEe2AefcY_nMcSg" anchor="_yuq5BLmrEe2AefcY_nMcSg _yurgELmrEe2AefcY_nMcSg">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yurgErmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYb7mrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_yurgE7mrEe2AefcY_nMcSg" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_yusHIbmrEe2AefcY_nMcSg" anchor="_yurgFLmrEe2AefcY_nMcSg _yusHILmrEe2AefcY_nMcSg">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yusHIrmrEe2AefcY_nMcSg" presentation="default">
+        <element href="TStoreServiceImplTest.uml#_ysuYcLmrEe2AefcY_nMcSg"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_yusHI7mrEe2AefcY_nMcSg" id="nameEdgeObject" offset="0,-10"/>
+    </contained>
+  </diagrams>
+</diagrams:Diagrams>

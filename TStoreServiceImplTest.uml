@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_ysuYQLmrEe2AefcY_nMcSg" name="Tstore">
+  <packagedElement xmi:type="uml:Package" xmi:id="_ysuYQbmrEe2AefcY_nMcSg" name="tstore">
+    <packagedElement xmi:type="uml:Package" xmi:id="_ysuYQrmrEe2AefcY_nMcSg" name="util">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ysuYQ7mrEe2AefcY_nMcSg" name="test">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_ysuYRLmrEe2AefcY_nMcSg">
+          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ysuYRbmrEe2AefcY_nMcSg">
+            <ownedAttribute xmi:id="_ysuYRrmrEe2AefcY_nMcSg" name="property" type="_ysuYcbmrEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_ysuYR7mrEe2AefcY_nMcSg" name="property" type="_ysuYd7mrEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_ysuYSLmrEe2AefcY_nMcSg" name="property" type="_ysuYebmrEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_ysuYSbmrEe2AefcY_nMcSg" name="property" type="_ysuYe7mrEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_ysuYSrmrEe2AefcY_nMcSg" name="property" type="_ysuYfbmrEe2AefcY_nMcSg"/>
+            <ownedConnector xmi:id="_ysuYS7mrEe2AefcY_nMcSg">
+              <end xmi:id="_ysuYTLmrEe2AefcY_nMcSg" role="_ysuYRrmrEe2AefcY_nMcSg" partWithPort="_ysuYRrmrEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_ysuYTbmrEe2AefcY_nMcSg">
+              <end xmi:id="_ysuYTrmrEe2AefcY_nMcSg" role="_ysuYR7mrEe2AefcY_nMcSg" partWithPort="_ysuYR7mrEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_ysuYT7mrEe2AefcY_nMcSg">
+              <end xmi:id="_ysuYULmrEe2AefcY_nMcSg" role="_ysuYSLmrEe2AefcY_nMcSg" partWithPort="_ysuYSLmrEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_ysuYUbmrEe2AefcY_nMcSg">
+              <end xmi:id="_ysuYUrmrEe2AefcY_nMcSg" role="_ysuYSbmrEe2AefcY_nMcSg" partWithPort="_ysuYSbmrEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_ysuYU7mrEe2AefcY_nMcSg">
+              <end xmi:id="_ysuYVLmrEe2AefcY_nMcSg" role="_ysuYSrmrEe2AefcY_nMcSg" partWithPort="_ysuYSrmrEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <lifeline xmi:id="_ysuYVbmrEe2AefcY_nMcSg" name="self" represents="_ysuYRrmrEe2AefcY_nMcSg" coveredBy="_ysuYWrmrEe2AefcY_nMcSg _ysuYW7mrEe2AefcY_nMcSg _ysuYXLmrEe2AefcY_nMcSg _ysuYX7mrEe2AefcY_nMcSg _ysuYYLmrEe2AefcY_nMcSg _ysuYYrmrEe2AefcY_nMcSg _ysuYY7mrEe2AefcY_nMcSg _ysuYZbmrEe2AefcY_nMcSg _ysuYZrmrEe2AefcY_nMcSg _ysuYaLmrEe2AefcY_nMcSg _ysuYabmrEe2AefcY_nMcSg _ysuYarmrEe2AefcY_nMcSg _ysuYa7mrEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_ysuYVrmrEe2AefcY_nMcSg" name="TStoreUtil" represents="_ysuYR7mrEe2AefcY_nMcSg" coveredBy="_ysuYXbmrEe2AefcY_nMcSg _ysuYXrmrEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_ysuYV7mrEe2AefcY_nMcSg" name="newTrade" represents="_ysuYSLmrEe2AefcY_nMcSg" coveredBy="_ysuYYbmrEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_ysuYWLmrEe2AefcY_nMcSg" name="TStoreRepository" represents="_ysuYSbmrEe2AefcY_nMcSg" coveredBy="_ysuYZLmrEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_ysuYWbmrEe2AefcY_nMcSg" name="TStoreService" represents="_ysuYSrmrEe2AefcY_nMcSg" coveredBy="_ysuYZ7mrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ysuYWrmrEe2AefcY_nMcSg" name="testUpdateForLowerVerionTrade( )" covered="_ysuYVbmrEe2AefcY_nMcSg" start="_ysuYW7mrEe2AefcY_nMcSg" finish="_ysuYabmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYW7mrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYcrmrEe2AefcY_nMcSg" message="_ysuYbLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYXLmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYcrmrEe2AefcY_nMcSg" message="_ysuYbLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYXbmrEe2AefcY_nMcSg" covered="_ysuYVrmrEe2AefcY_nMcSg" event="_ysuYcrmrEe2AefcY_nMcSg" message="_ysuYbLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ysuYXrmrEe2AefcY_nMcSg" covered="_ysuYVrmrEe2AefcY_nMcSg" start="_ysuYXbmrEe2AefcY_nMcSg" finish="_ysuYXbmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYX7mrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYc7mrEe2AefcY_nMcSg" message="_ysuYbbmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYYLmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYc7mrEe2AefcY_nMcSg" message="_ysuYbbmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYYbmrEe2AefcY_nMcSg" covered="_ysuYV7mrEe2AefcY_nMcSg" event="_ysuYc7mrEe2AefcY_nMcSg" message="_ysuYbbmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYYrmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdLmrEe2AefcY_nMcSg" message="_ysuYbrmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYY7mrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdLmrEe2AefcY_nMcSg" message="_ysuYbrmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYZLmrEe2AefcY_nMcSg" covered="_ysuYWLmrEe2AefcY_nMcSg" event="_ysuYdLmrEe2AefcY_nMcSg" message="_ysuYbrmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYZbmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdbmrEe2AefcY_nMcSg" message="_ysuYb7mrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYZrmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdbmrEe2AefcY_nMcSg" message="_ysuYb7mrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYZ7mrEe2AefcY_nMcSg" covered="_ysuYWbmrEe2AefcY_nMcSg" event="_ysuYdbmrEe2AefcY_nMcSg" message="_ysuYb7mrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYaLmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdrmrEe2AefcY_nMcSg" message="_ysuYcLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYabmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdrmrEe2AefcY_nMcSg" message="_ysuYcLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ysuYarmrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" event="_ysuYdrmrEe2AefcY_nMcSg" message="_ysuYcLmrEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ysuYa7mrEe2AefcY_nMcSg" covered="_ysuYVbmrEe2AefcY_nMcSg" start="_ysuYarmrEe2AefcY_nMcSg" finish="_ysuYarmrEe2AefcY_nMcSg"/>
+            <message xmi:id="_ysuYbLmrEe2AefcY_nMcSg" name="createTStore( )" receiveEvent="_ysuYXbmrEe2AefcY_nMcSg" sendEvent="_ysuYW7mrEe2AefcY_nMcSg"/>
+            <message xmi:id="_ysuYbbmrEe2AefcY_nMcSg" name="new()" messageSort="createMessage" receiveEvent="_ysuYYbmrEe2AefcY_nMcSg" sendEvent="_ysuYX7mrEe2AefcY_nMcSg"/>
+            <message xmi:id="_ysuYbrmrEe2AefcY_nMcSg" name="new()" messageSort="createMessage" receiveEvent="_ysuYZLmrEe2AefcY_nMcSg" sendEvent="_ysuYYrmrEe2AefcY_nMcSg"/>
+            <message xmi:id="_ysuYb7mrEe2AefcY_nMcSg" name="new()" messageSort="createMessage" receiveEvent="_ysuYZ7mrEe2AefcY_nMcSg" sendEvent="_ysuYZbmrEe2AefcY_nMcSg"/>
+            <message xmi:id="_ysuYcLmrEe2AefcY_nMcSg" name="assertThrows( )" receiveEvent="_ysuYarmrEe2AefcY_nMcSg" sendEvent="_ysuYaLmrEe2AefcY_nMcSg"/>
+          </ownedBehavior>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ysuYcbmrEe2AefcY_nMcSg" name="TStoreServiceImplTest"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_ysuYcrmrEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CreationEvent" xmi:id="_ysuYc7mrEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CreationEvent" xmi:id="_ysuYdLmrEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CreationEvent" xmi:id="_ysuYdbmrEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_ysuYdrmrEe2AefcY_nMcSg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ysuYd7mrEe2AefcY_nMcSg" name="TStoreUtil"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ysuYeLmrEe2AefcY_nMcSg" name="entity">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ysuYebmrEe2AefcY_nMcSg" name="Trade"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ysuYermrEe2AefcY_nMcSg" name="dao">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ysuYe7mrEe2AefcY_nMcSg" name="TStoreDaoImpl"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ysuYfLmrEe2AefcY_nMcSg" name="service">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ysuYfbmrEe2AefcY_nMcSg" name="TStoreServiceImpl"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

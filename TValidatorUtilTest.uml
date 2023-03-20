@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_vj7KYLmiEe2AefcY_nMcSg" name="Tstore">
+  <packagedElement xmi:type="uml:Package" xmi:id="_vj7KYbmiEe2AefcY_nMcSg" name="tstore">
+    <packagedElement xmi:type="uml:Package" xmi:id="_vj7KYrmiEe2AefcY_nMcSg" name="util">
+      <packagedElement xmi:type="uml:Package" xmi:id="_vj7KY7miEe2AefcY_nMcSg" name="test">
+        <packagedElement xmi:type="uml:Collaboration" xmi:id="_vj7KZLmiEe2AefcY_nMcSg">
+          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vj7KZbmiEe2AefcY_nMcSg">
+            <ownedAttribute xmi:id="_vj7KZrmiEe2AefcY_nMcSg" name="property" type="_vj7KobmiEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_vj7KZ7miEe2AefcY_nMcSg" name="property" type="_vj7xcLmiEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_vj7KaLmiEe2AefcY_nMcSg" name="property" type="_vj7xcbmiEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_vj7KabmiEe2AefcY_nMcSg" name="property" type="_vj8YgbmiEe2AefcY_nMcSg"/>
+            <ownedAttribute xmi:id="_vj7KarmiEe2AefcY_nMcSg" name="property" type="_vj8YhLmiEe2AefcY_nMcSg"/>
+            <ownedConnector xmi:id="_vj7Ka7miEe2AefcY_nMcSg">
+              <end xmi:id="_vj7KbLmiEe2AefcY_nMcSg" role="_vj7KZrmiEe2AefcY_nMcSg" partWithPort="_vj7KZrmiEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_vj7KbbmiEe2AefcY_nMcSg">
+              <end xmi:id="_vj7KbrmiEe2AefcY_nMcSg" role="_vj7KZ7miEe2AefcY_nMcSg" partWithPort="_vj7KZ7miEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_vj7Kb7miEe2AefcY_nMcSg">
+              <end xmi:id="_vj7KcLmiEe2AefcY_nMcSg" role="_vj7KaLmiEe2AefcY_nMcSg" partWithPort="_vj7KaLmiEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_vj7KcbmiEe2AefcY_nMcSg">
+              <end xmi:id="_vj7KcrmiEe2AefcY_nMcSg" role="_vj7KabmiEe2AefcY_nMcSg" partWithPort="_vj7KabmiEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <ownedConnector xmi:id="_vj7Kc7miEe2AefcY_nMcSg">
+              <end xmi:id="_vj7KdLmiEe2AefcY_nMcSg" role="_vj7KarmiEe2AefcY_nMcSg" partWithPort="_vj7KarmiEe2AefcY_nMcSg"/>
+            </ownedConnector>
+            <lifeline xmi:id="_vj7KdbmiEe2AefcY_nMcSg" name="self" represents="_vj7KZrmiEe2AefcY_nMcSg" coveredBy="_vj7KermiEe2AefcY_nMcSg _vj7Ke7miEe2AefcY_nMcSg _vj7KfLmiEe2AefcY_nMcSg _vj7Kf7miEe2AefcY_nMcSg _vj7KgLmiEe2AefcY_nMcSg _vj7Kg7miEe2AefcY_nMcSg _vj7KhLmiEe2AefcY_nMcSg _vj7Kh7miEe2AefcY_nMcSg _vj7KiLmiEe2AefcY_nMcSg _vj7KjbmiEe2AefcY_nMcSg _vj7KjrmiEe2AefcY_nMcSg _vj7KirmiEe2AefcY_nMcSg _vj7Kl7miEe2AefcY_nMcSg _vj7KmLmiEe2AefcY_nMcSg _vj7KmbmiEe2AefcY_nMcSg _vj7KmrmiEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_vj7KdrmiEe2AefcY_nMcSg" name="TStoreUtil" represents="_vj7KZ7miEe2AefcY_nMcSg" coveredBy="_vj7KfbmiEe2AefcY_nMcSg _vj7KfrmiEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_vj7Kd7miEe2AefcY_nMcSg" name="TValidatorUtil" represents="_vj7KaLmiEe2AefcY_nMcSg" coveredBy="_vj7KgbmiEe2AefcY_nMcSg _vj7KgrmiEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_vj7KeLmiEe2AefcY_nMcSg" name="intitalTStore" represents="_vj7KabmiEe2AefcY_nMcSg" coveredBy="_vj7KhbmiEe2AefcY_nMcSg _vj7KhrmiEe2AefcY_nMcSg"/>
+            <lifeline xmi:id="_vj7KebmiEe2AefcY_nMcSg" name="tradeList" represents="_vj7KarmiEe2AefcY_nMcSg" coveredBy="_vj7KibmiEe2AefcY_nMcSg _vj7Kj7miEe2AefcY_nMcSg _vj7KkLmiEe2AefcY_nMcSg _vj7KirmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KermiEe2AefcY_nMcSg" name="testUpdateTradeExpireFlag( )" covered="_vj7KdbmiEe2AefcY_nMcSg" start="_vj7Ke7miEe2AefcY_nMcSg" finish="_vj7KmLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Ke7miEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KormiEe2AefcY_nMcSg" message="_vj7Km7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KfLmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KormiEe2AefcY_nMcSg" message="_vj7Km7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KfbmiEe2AefcY_nMcSg" covered="_vj7KdrmiEe2AefcY_nMcSg" event="_vj7KormiEe2AefcY_nMcSg" message="_vj7Km7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KfrmiEe2AefcY_nMcSg" covered="_vj7KdrmiEe2AefcY_nMcSg" start="_vj7KfbmiEe2AefcY_nMcSg" finish="_vj7KfbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Kf7miEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7Ko7miEe2AefcY_nMcSg" message="_vj7KnLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KgLmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7Ko7miEe2AefcY_nMcSg" message="_vj7KnLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KgbmiEe2AefcY_nMcSg" covered="_vj7Kd7miEe2AefcY_nMcSg" event="_vj7Ko7miEe2AefcY_nMcSg" message="_vj7KnLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KgrmiEe2AefcY_nMcSg" covered="_vj7Kd7miEe2AefcY_nMcSg" start="_vj7KgbmiEe2AefcY_nMcSg" finish="_vj7KgbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Kg7miEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KpLmiEe2AefcY_nMcSg" message="_vj7KnbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KhLmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KpLmiEe2AefcY_nMcSg" message="_vj7KnbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KhbmiEe2AefcY_nMcSg" covered="_vj7KeLmiEe2AefcY_nMcSg" event="_vj7KpLmiEe2AefcY_nMcSg" message="_vj7KnbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KhrmiEe2AefcY_nMcSg" covered="_vj7KeLmiEe2AefcY_nMcSg" start="_vj7KhbmiEe2AefcY_nMcSg" finish="_vj7KhbmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Kh7miEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KpbmiEe2AefcY_nMcSg" message="_vj7KnrmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KiLmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KpbmiEe2AefcY_nMcSg" message="_vj7KnrmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KibmiEe2AefcY_nMcSg" covered="_vj7KebmiEe2AefcY_nMcSg" event="_vj7KpbmiEe2AefcY_nMcSg" message="_vj7KnrmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:CombinedFragment" xmi:id="_vj7KirmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg _vj7KebmiEe2AefcY_nMcSg" interactionOperator="loop">
+              <operand xmi:id="_vj7Ki7miEe2AefcY_nMcSg">
+                <guard xmi:id="_vj7KjLmiEe2AefcY_nMcSg" name="values.length()"/>
+              </operand>
+            </fragment>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KjbmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KprmiEe2AefcY_nMcSg" message="_vj7Kn7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KjrmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7KprmiEe2AefcY_nMcSg" message="_vj7Kn7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Kj7miEe2AefcY_nMcSg" covered="_vj7KebmiEe2AefcY_nMcSg" event="_vj7KprmiEe2AefcY_nMcSg" message="_vj7Kn7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KkLmiEe2AefcY_nMcSg" covered="_vj7KebmiEe2AefcY_nMcSg" start="_vj7Kj7miEe2AefcY_nMcSg" finish="_vj7Kj7miEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:CombinedFragment" xmi:id="_vj7KkbmiEe2AefcY_nMcSg" interactionOperator="loop">
+              <operand xmi:id="_vj7KkrmiEe2AefcY_nMcSg">
+                <guard xmi:id="_vj7Kk7miEe2AefcY_nMcSg" name="tradeList.length()"/>
+              </operand>
+            </fragment>
+            <fragment xmi:type="uml:CombinedFragment" xmi:id="_vj7KlLmiEe2AefcY_nMcSg" interactionOperator="alt">
+              <operand xmi:id="_vj7KlbmiEe2AefcY_nMcSg">
+                <guard xmi:id="_vj7KlrmiEe2AefcY_nMcSg" name="trade.getExpired().equals(&quot;Y&quot;)"/>
+              </operand>
+            </fragment>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7Kl7miEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7Kp7miEe2AefcY_nMcSg" message="_vj7KoLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KmLmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7Kp7miEe2AefcY_nMcSg" message="_vj7KoLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vj7KmbmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" event="_vj7Kp7miEe2AefcY_nMcSg" message="_vj7KoLmiEe2AefcY_nMcSg"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vj7KmrmiEe2AefcY_nMcSg" covered="_vj7KdbmiEe2AefcY_nMcSg" start="_vj7KmbmiEe2AefcY_nMcSg" finish="_vj7KmbmiEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7Km7miEe2AefcY_nMcSg" name="createTStore( )" receiveEvent="_vj7KfbmiEe2AefcY_nMcSg" sendEvent="_vj7Ke7miEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7KnLmiEe2AefcY_nMcSg" name="updateTradeExpireFlag( )" messageSort="asynchCall" receiveEvent="_vj7KgbmiEe2AefcY_nMcSg" sendEvent="_vj7Kf7miEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7KnbmiEe2AefcY_nMcSg" name="values( )" receiveEvent="_vj7KhbmiEe2AefcY_nMcSg" sendEvent="_vj7Kg7miEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7KnrmiEe2AefcY_nMcSg" name="new()" messageSort="createMessage" receiveEvent="_vj7KibmiEe2AefcY_nMcSg" sendEvent="_vj7Kh7miEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7Kn7miEe2AefcY_nMcSg" name="addAll( )" receiveEvent="_vj7Kj7miEe2AefcY_nMcSg" sendEvent="_vj7KjbmiEe2AefcY_nMcSg"/>
+            <message xmi:id="_vj7KoLmiEe2AefcY_nMcSg" name="assertEquals( )" messageSort="asynchCall" receiveEvent="_vj7KmbmiEe2AefcY_nMcSg" sendEvent="_vj7Kl7miEe2AefcY_nMcSg"/>
+          </ownedBehavior>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vj7KobmiEe2AefcY_nMcSg" name="TValidatorUtilTest"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_vj7KormiEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_vj7Ko7miEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_vj7KpLmiEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CreationEvent" xmi:id="_vj7KpbmiEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_vj7KprmiEe2AefcY_nMcSg"/>
+        <packagedElement xmi:type="uml:CallEvent" xmi:id="_vj7Kp7miEe2AefcY_nMcSg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vj7xcLmiEe2AefcY_nMcSg" name="TStoreUtil"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vj7xcbmiEe2AefcY_nMcSg" name="TValidatorUtil"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_vj7xcrmiEe2AefcY_nMcSg" name="java">
+    <packagedElement xmi:type="uml:Package" xmi:id="_vj7xc7miEe2AefcY_nMcSg" name="util">
+      <packagedElement xmi:type="uml:Package" xmi:id="_vj7xdLmiEe2AefcY_nMcSg" name="Map&lt;java">
+        <packagedElement xmi:type="uml:Package" xmi:id="_vj7xdbmiEe2AefcY_nMcSg" name="lang">
+          <packagedElement xmi:type="uml:Package" xmi:id="_vj7xdrmiEe2AefcY_nMcSg" name="String,java">
+            <packagedElement xmi:type="uml:Package" xmi:id="_vj7xd7miEe2AefcY_nMcSg" name="util">
+              <packagedElement xmi:type="uml:Package" xmi:id="_vj7xeLmiEe2AefcY_nMcSg" name="List&lt;tstore">
+                <packagedElement xmi:type="uml:Package" xmi:id="_vj8YgLmiEe2AefcY_nMcSg" name="entity">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_vj8YgbmiEe2AefcY_nMcSg" name="Trade>>"/>
+                </packagedElement>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vj8YgrmiEe2AefcY_nMcSg" name="ArrayList&lt;tstore">
+        <packagedElement xmi:type="uml:Package" xmi:id="_vj8Yg7miEe2AefcY_nMcSg" name="entity">
+          <packagedElement xmi:type="uml:Class" xmi:id="_vj8YhLmiEe2AefcY_nMcSg" name="Trade>"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
