@@ -28,11 +28,11 @@ public class TStoreServiceImplTest {
 	@Test
 	public void testUpdateForLowerVerionTrade() {
 		 Map<String, List<Trade>> intitalTStore = TStoreUtil.createTStore();
-		 Trade newTrade =  new Trade("T2",1,"CP-1","B1",LocalDate.parse("20/05/2021",DateTimeFormatter.ofPattern("dd/MM/yyyy")),LocalDate.parse("14/03/2022",DateTimeFormatter.ofPattern("dd/MM/yyyy")),"N");
+		 Trade newTrade =  new Trade("T2",1,"CP-1","B1",LocalDate.parse("20/05/2023",DateTimeFormatter.ofPattern("dd/MM/yyyy")),LocalDate.parse("14/03/2022",DateTimeFormatter.ofPattern("dd/MM/yyyy")),"N");
 		
 		 TStoreDao TStoreRepository = new TStoreDaoImpl();
 		 TStoreService TStoreService = new TStoreServiceImpl(TStoreRepository);
 		 
-		 //assertThrows(VersionCheckException.class, ()->TStoreService.updateTStore(newTrade, intitalTStore));
+		 assertThrows(VersionCheckException.class, ()->TStoreService.updateTStore(newTrade, intitalTStore));
 	}
 }

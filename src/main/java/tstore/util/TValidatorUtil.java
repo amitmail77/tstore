@@ -23,12 +23,16 @@ public class TValidatorUtil {
 	 */
 	public static List<Trade> rejectForLowerVerUpdateForSameVer(Trade newTrade,
 			List<Trade> tList) throws VersionCheckException {
-		Collections.sort(tList, (t1,t2)->t2.getVersion().compareTo(t1.getVersion()));
-		if(tList.get(0).getVersion() == newTrade.getVersion()) {
-			tList = new ArrayList<>();
+		Collections.sort(tList);
+
+		if(tList.get(0).getVersion().equals(newTrade.getVersion())) {
+			//tList = new ArrayList<>();
 			tList.set(0, newTrade);
 		}
-		if(tList.get(0).getVersion() > newTrade.getVersion()) {
+		if(tList.get(0).getVersion().compareTo(newTrade.getVersion())>0) {
+			System.out.println("As The lower version is being received by the store it will reject the trade and throw an exception.\n"
+					+ "			If the version is same it will override/update the existing record.");
+
 			throw new VersionCheckException("Trade_Id:"+tList.get(0).getTradeId()+" Received trade version:"+newTrade.getVersion()+" Which is lower than store trade verion:"+tList.get(0).getVersion());
 		}else {
 			System.out.println("This trade is successfully added in store.");

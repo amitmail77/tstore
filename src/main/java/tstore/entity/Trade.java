@@ -1,9 +1,10 @@
 package tstore.entity;
 
 import java.time.LocalDate;
+import java.lang.*;
 
 
-public class Trade {
+public class Trade implements Comparable<Trade> {
 	
 	private String tId;
 	private Integer version;
@@ -135,5 +136,9 @@ public class Trade {
 		return "Trade [tId=" + tId + ", version=" + version + ", CounterPartyId=" + CounterPartyId + ", bookId="
 				+ bookId + ", maturityDate=" + maturityDate + ", createdDate=" + createdDate + ", expired=" + expired
 				+ "]";
+	}
+	@Override
+	public int compareTo(Trade o) {
+		return o.getVersion().compareTo(this.getVersion());
 	}
 }

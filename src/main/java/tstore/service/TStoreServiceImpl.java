@@ -42,6 +42,7 @@ public class TStoreServiceImpl implements TStoreService {
 			/*Validation-1.The lower version is being received by the store it will reject the trade and throw an exception.
 			If the version is same it will override/update the existing record*/
 			tList = TValidatorUtil.rejectForLowerVerUpdateForSameVer(newTrade, tList);
+			
 		}
 	
 		//Validation-3.Store should automatically update the expire flag if in a store the trade crosses the maturity date.
